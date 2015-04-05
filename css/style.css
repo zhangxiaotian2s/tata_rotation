@@ -1,0 +1,145 @@
+*{ margin: 0; padding: 0; font-family: "微软雅黑",verdana;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{border: none;}
+input ,select{outline: none}
+.relative{ position: relative;}
+.absolute{position: absolute;}
+
+.clear{ clear:both; height: 0px;  overflow:  hidden;}
+.p_100{ width: 100%;}
+.w_nr{ width: 1000px; margin: 0 auto;} 
+.hidden{ display: none;}
+.over{  overflow: hidden;}
+.block{display: block;}
+.bkcenter{background-position:center;}
+
+.error_red{ color: #B11818;}
+
+.blank10{  height: 10px; overflow: hidden; clear: both;}
+.blank20{  height: 20px; overflow: hidden; clear: both;}
+.blank30{  height: 30px; overflow: hidden; clear: both;}
+
+.nav_bk{background: #b6232d;}
+.nav_bk img{ display: block;}
+.nav_bk ul{margin-left: 0px;}
+.nav_bk ul li{ float: left; margin:10px 20px; display: inline;}
+.fwlc img{ width: 90%; margin-left: 0px; }
+
+
+.foot{ border-top: #bebdbd solid 1px;}
+
+.bk_top a{ display: block;  width: 100%; height: 100%;} 
+.bk_top a img{margin:   auto;}
+
+
+
+.bmrs{ width: 260px; margin: 0 auto;   line-height: 28x; text-align: left;  font-size: 20px; color: #fd2929; }
+.bmrs span { color: #000; font-size: 22px; padding: 0px 10px;}
+.sysj{ width: 260px; margin: 5px auto 2px; font-size: 14px; line-height: 24px;  white-space: nowrap; color: #777777;}
+
+.sysj span{ display: block; float:left;}
+.bktime{ background: #FFFFFF; padding: 0px 2px; margin: 0px 1px; display: inline;} 
+
+.cglist h2{ font-size: 14px; color: #777; margin: 5px auto; text-align: center;}
+
+.cglist .scroll_box{width: 260px; background: #FFFFFF; margin: auto; height: 200px; overflow: hidden;}
+.cglist .scroll_box ul li{ height: 26px;  line-height: 26px; font-size: 12px; padding-left: 4px;}
+
+.bm_bottom img{ width:794px ; display: block;}
+
+
+
+#m{
+    background:url(../images/phonebk.png) no-repeat;
+    width: 200px;
+    height: 150px;
+}
+#phone {
+    border: 1px solid #1E8A00;
+    height: 30px;
+    line-height: 22px;
+    margin-left: 40px;
+    margin-top: 85px;
+    text-indent: 4px;
+    width: 130px;
+}
+
+
+.sjs_1{ position: relative; overflow: hidden; }
+.sjs_1 a{ display: block; width: 240px; height: 100px; position: absolute; left: 0px; bottom: 20px;}
+.sjs_2{ position: relative; overflow: hidden; }
+.sjs_2 a{ display: block; width: 300px; height: 120px; position: absolute; right: 0px; bottom: 120px;}  
+
+.sjs_3{ position: relative; overflow: hidden; }
+.sjs_3 a{ display: block; width: 240px; height: 100px; position: absolute; left: 0px; bottom: 160px;}
+
+
+.bm_div{ width: 794px; background: #ff4848; border-radius:6px ; margin: auto; overflow: hidden; padding: 10px;}
+.bm_head{ left: 10px; top: 0px;}
+.bm_left{width:392px; float: left; overflow: hidden; background: #fffb82; height: 330px;border-radius:2px ; }
+.bm_right{float: right; width: 392px; margin-left: 10px; display: inline;background: #fffb82; border-radius:2px;height: 330px;}
+.bm_right_nav{ margin-top: 30px;}
+#sub_btn1 img{ display: block; margin: 0 auto;}
+
+.bm_box{  width: 100%;  margin-top: 45px; overflow: hidden; float: left;}
+.bm_list{ float:left; width: 280px; height: 200px; background: #676454; margin-top: 70px;}
+
+
+ 
+.bmform_box{width: 315px; padding-left: 10px;  margin: 60px auto 20px;  height: 120px;}
+.bmform_box table tr td{ height: 60px;}
+.bmform_box table tr td strong{ font-size: 24px;  white-space: nowrap; color: #fd2929;}
+.bmform_box table tr td  input{width: 80%; height: 40px; line-height: 40px; border: none; padding-left: 10px;}
+#sub_btn { display: block; width: 100%;}
+#sub_btn img{ display: block; margin: 0 auto;}
+
+
+.foot_fix{ position: fixed; bottom: 0px; left: 0px; background: #ff3262; padding: 5px 0px;}  
+
+.foot_fix_left{width: 380px; height: 40px; float: left; overflow: hidden;}
+.foot_fix_bm{ width:600px; float: left; height: 40px; padding-left: 10px; }
+.foot_fix_bm table tr td{ height: 40px;}
+.foot_fix_bm table tr td strong{ font-size: 18px; color: #fdff67; text-align: center; white-space: nowrap; padding-left: 10px;}
+.foot_fix_bm table tr td input.text{  width: 130px; height: 30px; border: none; padding-left: 10px;}
+.foot_fix_bm table tr td input.btn{ width: 152px; height:39px; background: url(../images/foot_fixbtn.png); border: none; cursor: pointer; }
+
+
+
+
+
+/*rotation*/
+.rotation_left{ width: 256px; height: 376px; background:url(../images/rotation_left.png); overflow: hidden; margin-top: 50px; float: left;}
+
+
+.scroll_box2{ width: 90%; padding: 0px 5%; height: 300px; margin-top: 80px;}
+.scroll_box2 ul li{ font-size: 12px; line-height: 30px;}
+
+.rotation_mid{ width: 500px; float: left;}
+.rotation_bk{ width: 454px; height: 454px; background: url(../images/rotation_box.png); margin:0 auto; position: relative;}
+.rotation_pan{ position: absolute;  width: 426px; height: 426px; left: 14px; top: 10px;}
+.rotation_select{ position: absolute; width: 140px; height: 141px;  left:160px;top: 130px;}
+
+.rotation_right{ width: 240px; float: left; margin-top: 120px;}
+.rotation_right img{ width: 90%;}
+
+.popup_bk{ position: fixed; width: 100%; height: 100%;  background:url(../images/op50.png); z-index:0; left: 0px;top: 0px;z-index: 10000000;}
+.popup_box{position: fixed; width: 500px; height: 300px; background:url(../images/popup_bk.png);left: 50%; top: 150px; margin-left: -250px;z-index: 10000001;}
+.popup_form_box h1{ text-align: center; margin-top: 0px; font-size: 36px; color: #ff4747;}
+.popup_form_box h2{ text-align: center; font-size: 22px;}
+.popup_form_box p{ text-align: center; font-size: 14px;} 
+
+.register3_box{ padding-left: 100px;}
+.register3_box table{ width: 400px;}
+.register3_box  table td input{ height: 30px; line-height: 30px; border: #000000 solid 1px; width: 180px; padding-left: 10px;}
+.register3_box  table td strong{ font-size: 20px;}
+#sub_btn3 img{ display: block; margin-left: 120px;}
+
+#popup_close{ display: block; width: 50px; height: 50px; margin-left: 450px;}
+
+.popup_unfirst img{ margin-left: 85px;}
+
+
+
+
+
