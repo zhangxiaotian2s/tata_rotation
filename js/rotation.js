@@ -2,7 +2,7 @@ var isgo = true;
 var ran = 1;
 var totalDeg = 360 * 5 + 25 * ran;
 var i = 0;
-var a = 0.01;
+var a = 0.1;
 var steps = [];
 var now = 0;
 var timer;
