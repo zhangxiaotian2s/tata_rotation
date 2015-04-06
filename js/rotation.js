@@ -33,7 +33,7 @@ function start() {
 				clearInterval(timer)
 				now = 0
                 document.cookie ="isfirst";
-                $("#popup_unfirst").addClass("hidden")
+               $("#popup_unfirst").addClass("hidden")
                 $("#popup").removeClass("hidden")
                 $("#popup_form_box").removeClass("hidden")
 				isgo = true;
@@ -45,6 +45,7 @@ function start() {
 $rotation_select.click(function() {
 		if (isfirst() >= 0) {
 			$("#popup").removeClass("hidden")
+			 $("#popup_form_box").addClass("hidden")
 			$("#popup_unfirst").removeClass("hidden")
 			isgo = false;
 		} else {
