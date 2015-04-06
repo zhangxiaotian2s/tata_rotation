@@ -32,7 +32,7 @@ function start() {
 			if (now >= steps.length) {
 				clearInterval(timer)
 				now = 0
-                document.cookie = "isfirst";
+                document.cookie = " isfirst";
                 $("#popup").removeClass("hidden")
                 $("#popup_form_box").removeClass("hidden")
 				isgo = true;
