@@ -33,6 +33,7 @@ function start() {
 				clearInterval(timer)
 				now = 0
                 document.cookie ="isfirst";
+                $("#popup_unfirst").addClass("hidden")
                 $("#popup").removeClass("hidden")
                 $("#popup_form_box").removeClass("hidden")
 				isgo = true;
