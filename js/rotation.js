@@ -32,7 +32,7 @@ function start() {
 			if (now >= steps.length) {
 				clearInterval(timer)
 				now = 0
-                document.cookie = " isfirst";
+                document.cookie ="isfirst";
                 $("#popup").removeClass("hidden")
                 $("#popup_form_box").removeClass("hidden")
 				isgo = true;
@@ -55,7 +55,12 @@ $rotation_select.click(function() {
 function isfirst(){
 	var strCookie = document.cookie;
 	var arrCookie = strCookie.split(";");
-	return $.inArray("isfirst", arrCookie)
+	var t_arrCookie=[]
+	var arr_length=arrCookie.length
+	   for(i=0;i<arr_length;i++){
+		t_arrCookie.push($.trim(arrCookie[i]))
+	}
+	return $.inArray("isfirst", t_arrCookie)
 }
 
 $("#popup_close").click(function(){
