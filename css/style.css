@@ -1,6 +1,6 @@
 *{ margin: 0; padding: 0; font-family: "微软雅黑",verdana;}
 li{ list-style: none;}
-a{ text-decoration: none; background:#000000;}
+a{ text-decoration: none; }
 img{border: none;}
 input ,select{outline: none}
 .relative{ position: relative;}
