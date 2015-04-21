@@ -574,6 +574,9 @@ var _hmt = _hmt || [];
 						type: "post",
 						url: "/apply",
 						data: {name: $("#name2").val(),mobile: $("#mobile2").val(),event_id: 1,source: "pc",is_zhongjiang: true},
+						beforeSend:function(){
+						 console.log("开始执行")
+						},
 						success: function(data) {
 //							if (data.msg == success) {
 								alert("您好，感谢您申请TATA木门的免费上门设计服务，我们的客服人员将在24小时内与您沟通确定上门时间，敬请留意！");
